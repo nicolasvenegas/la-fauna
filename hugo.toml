@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://nicolasvenegas.github.io/la-fauna/'
 languageCode = 'es-es'
 title = 'La Fauna'
 [[module.imports]]
