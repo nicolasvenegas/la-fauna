@@ -1,65 +1,40 @@
-# Workflow para construir y desplegar un sitio de Hugo en GitHub Pages
 name: Deploy Hugo site to Pages
 
 on:
-  # Se ejecuta cada vez que haces un "push" a la rama main
   push:
     branches: ["main"]
-
-  # Permite ejecutar este workflow manualmente desde la pestaña Actions
   workflow_dispatch:
 
-# Configura los permisos necesarios para el GITHUB_TOKEN
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Permite solo un despliegue a la vez
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
-defaults:
-  run:
-    shell: bash
-
 jobs:
-  # Trabajo de construcción (Build)
   build:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.124.1 # Puedes subirla si lo necesitas
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
           fetch-depth: 0
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
-          extended: true # Necesario para muchos temas como Ananke o Console
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v4
+          extended: true
       - name: Build with Hugo
-        env:
-          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
-          HUGO_ENVIRONMENT: production
-        run: |
-          hugo \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+        run: hugo --minify
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
-  # Trabajo de despliegue (Deploy)
   deploy:
-    adapter: github-pages
     needs: build
     runs-on: ubuntu-latest
     environment:
