@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>La Fauna</title>
+    <link href="https://nicolasvenegas.github.io/la-fauna/feed.xml" rel="self" />
+    <link href="https://nicolasvenegas.github.io/la-fauna" />
+    <updated>2026-04-20T18:41:32-04:00</updated>
+    <author>
+        <name>Hugo Oviedo</name>
+    </author>
+    <id>https://nicolasvenegas.github.io/la-fauna</id>
+
+    <entry>
+        <title>post 1</title>
+        <author>
+            <name>Hugo Oviedo</name>
+        </author>
+        <link href="https://nicolasvenegas.github.io/la-fauna/post-1.html"/>
+        <id>https://nicolasvenegas.github.io/la-fauna/post-1.html</id>
+
+        <updated>2026-04-20T18:41:32-04:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Hola mundo!
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Hola mundo!</p>
+<figure class="post__image"><img loading="lazy"  src="https://nicolasvenegas.github.io/la-fauna/media/posts/1/Captura-de-Pantalla-2026-02-13-a-las-11.48.30-p.-m..png" alt="" width="422" height="296" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://nicolasvenegas.github.io/la-fauna/media/posts/1/responsive/Captura-de-Pantalla-2026-02-13-a-las-11.48.30-p.-m.-xs.png 640w ,https://nicolasvenegas.github.io/la-fauna/media/posts/1/responsive/Captura-de-Pantalla-2026-02-13-a-las-11.48.30-p.-m.-sm.png 768w ,https://nicolasvenegas.github.io/la-fauna/media/posts/1/responsive/Captura-de-Pantalla-2026-02-13-a-las-11.48.30-p.-m.-md.png 1024w ,https://nicolasvenegas.github.io/la-fauna/media/posts/1/responsive/Captura-de-Pantalla-2026-02-13-a-las-11.48.30-p.-m.-lg.png 1366w ,https://nicolasvenegas.github.io/la-fauna/media/posts/1/responsive/Captura-de-Pantalla-2026-02-13-a-las-11.48.30-p.-m.-xl.png 1600w ,https://nicolasvenegas.github.io/la-fauna/media/posts/1/responsive/Captura-de-Pantalla-2026-02-13-a-las-11.48.30-p.-m.-2xl.png 1920w"></figure>
+            ]]>
+        </content>
+    </entry>
+</feed>

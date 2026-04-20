@@ -1,0 +1,27 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "La Fauna",
+    "description": "",
+    "home_page_url": "https://nicolasvenegas.github.io/la-fauna",
+    "feed_url": "https://nicolasvenegas.github.io/la-fauna/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Hugo Oviedo"
+    },
+    "items": [
+        {
+            "id": "https://nicolasvenegas.github.io/la-fauna/post-1.html",
+            "url": "https://nicolasvenegas.github.io/la-fauna/post-1.html",
+            "title": "post 1",
+            "summary": "Hola mundo!",
+            "content_html": "<p>Hola mundo!</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://nicolasvenegas.github.io/la-fauna/media/posts/1/Captura-de-Pantalla-2026-02-13-a-las-11.48.30-p.-m..png\" alt=\"\" width=\"422\" height=\"296\" sizes=\"(max-width: 1920px) 100vw, 1920px\" srcset=\"https://nicolasvenegas.github.io/la-fauna/media/posts/1/responsive/Captura-de-Pantalla-2026-02-13-a-las-11.48.30-p.-m.-xs.png 640w ,https://nicolasvenegas.github.io/la-fauna/media/posts/1/responsive/Captura-de-Pantalla-2026-02-13-a-las-11.48.30-p.-m.-sm.png 768w ,https://nicolasvenegas.github.io/la-fauna/media/posts/1/responsive/Captura-de-Pantalla-2026-02-13-a-las-11.48.30-p.-m.-md.png 1024w ,https://nicolasvenegas.github.io/la-fauna/media/posts/1/responsive/Captura-de-Pantalla-2026-02-13-a-las-11.48.30-p.-m.-lg.png 1366w ,https://nicolasvenegas.github.io/la-fauna/media/posts/1/responsive/Captura-de-Pantalla-2026-02-13-a-las-11.48.30-p.-m.-xl.png 1600w ,https://nicolasvenegas.github.io/la-fauna/media/posts/1/responsive/Captura-de-Pantalla-2026-02-13-a-las-11.48.30-p.-m.-2xl.png 1920w\"></figure>",
+            "author": {
+                "name": "Hugo Oviedo"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-04-20T18:41:32-04:00",
+            "date_modified": "2026-04-20T18:41:32-04:00"
+        }
+    ]
+}

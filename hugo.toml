@@ -1,6 +1,0 @@
-baseURL = 'https://nicolasvenegas.github.io/la-fauna/'
-languageCode = 'es-es'
-title = 'La Fauna'
-[[module.imports]]
-  path = "github.com/mrmierzejewski/hugo-theme-console"
-
